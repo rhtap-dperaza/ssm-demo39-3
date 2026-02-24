@@ -47,7 +47,7 @@ spec:
     - name: gitops-auth-secret-name
       value: "gitops-auth-secret"
   pipelineRef:
-    name: docker-build-rhtap
+    name: docker-build-tssc
   workspaces:
     - name: gitops-auth
       secret:
